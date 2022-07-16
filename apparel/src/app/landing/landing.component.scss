@@ -1,0 +1,33 @@
+@import '../../../assets/variables.scss';
+
+.landing {
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+
+    img {
+        height: 76vh;
+    }
+
+    h3{
+        margin: 0;
+        font-size: 10px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: $primary;
+    }
+
+    h1 span {
+
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+    text-transform: uppercase;
+    font-size: 5rem;
+    line-height: 2rem;
+    color: white;
+    }   
+}

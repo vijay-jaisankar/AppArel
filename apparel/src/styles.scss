@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../assets/variables.scss';
+@import 'app/app.component.scss';
+@import 'app/navbar/navbar.component.scss';
+@import 'app/artboard/artboard.component.scss';
+@import 'app/landing/landing.component.scss';
+@import 'app/lookbook/lookbook.component.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');

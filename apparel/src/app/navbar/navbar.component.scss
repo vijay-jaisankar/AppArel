@@ -1,0 +1,67 @@
+@import "../../../assets/variables.scss";
+
+.navbar{
+
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px;
+
+    .color-blocks{
+        display: flex;
+
+        #red {
+            width: 20px;
+            height: 20px;
+            background-color: $action;
+            border-radius: 50%;
+            margin: 5px;
+        }
+
+        #yellow {
+            width: 20px;
+            height: 20px;
+            background-color: $secondary;
+            border-radius: 50%;
+            margin: 5px;
+        }
+
+        #blue{
+            width: 20px;
+            height: 20px;
+            background-color: $primary;
+            border-radius: 50%;
+            margin: 5px;
+        }
+    }
+
+    .nav-links{
+        justify-content: space-evenly;
+        display: flex;
+        font-size: 16px;
+
+        li{
+            list-style: none;
+        }
+
+        a{
+            padding: 5px;
+            margin: 0px 10px;
+            color: white;
+            text-decoration: none;
+
+            :visited{
+                color: white;
+            }
+
+            :hover{
+                color: $primary !important;
+            }
+        }
+
+    }
+
+    .link-active{
+        border-bottom: 3px solid $action;
+    }
+
+}
