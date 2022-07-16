@@ -1,2 +1,2 @@
-# appparel
-Make your own definition of Fashion.
+# AppArel
+Redefine Fashion.
