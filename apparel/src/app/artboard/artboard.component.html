@@ -1,0 +1,26 @@
+<div class="artboard">
+    <div class="toolset">
+        <div class="tool-icon">
+            <label for="file-input">
+                <img src="assets/bx_import.svg" title="Import">
+            </label>
+            <input id="file-input" type="file" (change)="upload($event)" style="display: none;">
+        </div>
+        <div class="tool-icon">
+            <input [(colorPicker)]="color" [style.background]="color"/>
+        </div>
+        <div class="tool-icon">
+            <img src="assets/rect.svg" (click)="rectangleTool()" title="Rectangle Tool">
+        </div>
+        <div class="tool-icon">
+            <img src="assets/eraser.svg" (click)="clearCanvas()" title="Eraser">
+        </div>
+        <div class="tool-icon">
+            <img src="assets/pen.svg" (click)="freeHandTool()" title="Pen Tool">
+        </div>
+    </div>
+    <canvas id="canvas"> 
+        We're sorry, the browser you are using does not support canvas. Please upgrade your browser.      
+    </canvas>
+</div>
+

@@ -1,0 +1,35 @@
+@import "../../../assets/variables.scss";
+
+.artboard{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 20px;
+
+    canvas {
+    background-color: white;
+    width: 80%;
+    height: 80vh;
+    }
+
+    .toolset{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+
+        .tool-icon{
+            padding: 10px;
+            cursor: pointer;
+            img{
+                color: $action;
+            }
+            
+            input{ 
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
