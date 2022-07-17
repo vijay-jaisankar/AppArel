@@ -8,6 +8,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ArtboardComponent } from './artboard/artboard.component';
 import { LookbookComponent } from './lookbook/lookbook.component';
 import { ColorPickerModule } from 'ngx-color-picker';
+import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,12 +19,16 @@ import { ColorPickerModule } from 'ngx-color-picker';
     LandingComponent,
     NavbarComponent,
     ArtboardComponent,
-    LookbookComponent
+    LookbookComponent,
+    SignupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ColorPickerModule
+    ColorPickerModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   exports:[
     ColorPickerModule

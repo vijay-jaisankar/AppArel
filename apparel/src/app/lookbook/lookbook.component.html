@@ -1,11 +1,11 @@
 <div class="lookbook">
     <div class="image-container">
-
+        <img [src]="imageToShow">
     </div>
     <div class="buttons">
-        <button>Generate Next</button>
+        <button (click)="getImageFromService()">Generate Next</button>
         <button>Paste To Artboard</button>
-        <button>Save To Inspirations</button>
+        <button >Save To Inspirations</button>
     </div>
     
 </div>
