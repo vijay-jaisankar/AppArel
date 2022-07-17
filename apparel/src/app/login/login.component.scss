@@ -1,0 +1,40 @@
+@import "../../../assets/variables.scss";
+
+.Login {
+    height: 80vh;
+    display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    .login-form{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fortextbox{
+        background: none !important;
+        border: 2px solid $action;
+        width: 15rem;
+        height: 2rem;;
+        margin: 5px;
+    }
+
+    .forsubmit{
+        color: white;
+        padding: 10px;
+        width: 15rem;
+        margin: 5px;
+        font-family: 'Poppins';
+        border: none;
+        border-radius: 10px;
+        background-color: $action;
+    }
+
+}
