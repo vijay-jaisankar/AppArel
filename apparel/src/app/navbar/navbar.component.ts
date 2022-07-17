@@ -7,7 +7,7 @@ import { ApparelService } from '../apparel.service';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  loggedIn: boolean = false;
+  loggedIn: boolean = true;
   apparelService!: ApparelService;
 
   constructor() { }
